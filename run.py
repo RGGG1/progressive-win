@@ -95,3 +95,10 @@ else:
    - an alert if the user selects a number they have already previously chosen
    - a way for them to restart the game
 """
+
+"""
+   Operational note: The attractiveness of the game is that if the user keeps guessing, 
+   and paying for each guess, they will definitely eventually win.
+   However, because the payout is a smaller multiple than the number of selection choices,
+   the house will always win in the long run.
+"""
