@@ -15,7 +15,7 @@ import random
 Options = [1,2,3,4,5,6,7,8,9,10,11]
 
 """
-   Options eliminaged - shows all the numbers already selected by the user
+   Options eliminated - shows all the numbers already selected by the user
 
 """
 
