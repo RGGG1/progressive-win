@@ -1,32 +1,24 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
 Welcome,
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **March 14, 2023**
+Progressive Win is a new casino game concept inveted by me, the creator of this game, by Ross Glacken. The user can bet on a range of selections. After each bet, if they didn't yet pick the correct selection, the selection choice is reduce and they can bet again, at the same odds. They can repeat this process until they win, or run out of funds.
 
-## Reminders
+## Notes
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
+This is still a work in progress. We need to consider how to:
+- create a wallet for the user
+- manage deductions from their wallet balance after each bet is placed
+- update their wallet if / when they win
 
-## Creating the Heroku app
+## This game instance
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+I have set the game to have a selection of 11 numbers.
 
-1. `heroku/python`
-2. `heroku/nodejs`
+The user can choose any number and if they are correct they will win 10x their bet amount.
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+This gives the house an edge of approximately 9%, from which they can profit by running the game.
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+## Issues
 
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
----
-
-Happy coding!
+- Problems deploying to Heroku
+- Late submission
+- Catching up on course
